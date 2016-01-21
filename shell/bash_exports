@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Shell Variables
+# http://linux.die.net/man/1/bash
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Ignore commands that start with spaces and duplicates
+export HISTCONTROL=ignoreboth
+
+# Don't clear the screen after quitting a man page
+export MANPAGER='less -X'
+# Make new shells get the history lines from all previous
+# shells instead of the default "last window closed" history
+export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+# Make Python use UTF-8 encoding for output to stdin/stdout/stderr
+export PYTHONIOENCODING='UTF-8'

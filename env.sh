@@ -1,0 +1,3 @@
+#!/bin/bash
+# Make vim the default editor
+export EDITOR='sublime'
