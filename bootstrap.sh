@@ -30,3 +30,10 @@
  #cd /usr/src
 #$ sudo apt-get install curl php5-cli
 #$ curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+
+
+# INSTALL EXPECT
+# info: task automation
+# ref: https://wiki.debian.org/Expect
+#
+# sudo apt-get install expect

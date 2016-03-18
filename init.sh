@@ -20,7 +20,7 @@ PATH="$PATH:$HOME/.dotfiles/bin"
 myinfo
 
 export PS1="\[\033[01;33m\][$USER@$HOSTNAME]\[\033[0;00m\] \[\033[01;32m\]\w\\$\[\033[0;00m\] "
-echo "\n"
+echo -e "\n"
 echo "Welcome to the dark side of the moon, $USER!"
 echo -e "Today is $(date)\nUptime: $(uptime)"
 echo "Your personal settings have been loaded successfully."
